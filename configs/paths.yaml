@@ -1,0 +1,9 @@
+# Filesystem paths, read by src/cuhkx/paths.py.
+# Relative values resolve against the package root. Only test_root and sample_submission
+# need setting; tools/configure_paths.py (called by run_inference.sh) writes them for you.
+
+test_root: "REPLACE_ME/small_model_track_test"
+sample_submission: "REPLACE_ME/Testing/sample_submission.csv"
+cache_root: "outputs/cache"
+processed_root: "outputs/processed"
+train_root: "UNUSED_AT_INFERENCE"

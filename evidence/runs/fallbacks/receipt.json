@@ -1,0 +1,126 @@
+{
+  "at": "2026-09-15T20:37:30.536551+08:00",
+  "passed": true,
+  "cases": [
+    {
+      "mode": "normal",
+      "coverage": 1.0,
+      "decoder_report": {
+        "mode": "original",
+        "clips": 405,
+        "takes": 144,
+        "coverage": 1.0,
+        "fell_back": false,
+        "reason": "",
+        "filled_by_argmax": 0,
+        "missing_probability_class0": 0,
+        "oversize_takes": 0
+      },
+      "csv_sha256": "c09ace927fc749a24f432d3a4503da9738af3d31db85d26db3f8b15f1fae8489"
+    },
+    {
+      "mode": "Depth_hidden",
+      "coverage": 1.0,
+      "decoder_report": {
+        "mode": "original",
+        "clips": 405,
+        "takes": 144,
+        "coverage": 1.0,
+        "fell_back": false,
+        "reason": "",
+        "filled_by_argmax": 0,
+        "missing_probability_class0": 0,
+        "oversize_takes": 0
+      },
+      "csv_sha256": "c09ace927fc749a24f432d3a4503da9738af3d31db85d26db3f8b15f1fae8489"
+    },
+    {
+      "mode": "IR_hidden",
+      "coverage": 1.0,
+      "decoder_report": {
+        "mode": "original",
+        "clips": 405,
+        "takes": 144,
+        "coverage": 1.0,
+        "fell_back": false,
+        "reason": "",
+        "filled_by_argmax": 0,
+        "missing_probability_class0": 0,
+        "oversize_takes": 0
+      },
+      "csv_sha256": "c09ace927fc749a24f432d3a4503da9738af3d31db85d26db3f8b15f1fae8489"
+    },
+    {
+      "mode": "Skeleton_only",
+      "coverage": 0.9975308641975309,
+      "decoder_report": {
+        "mode": "original",
+        "clips": 405,
+        "takes": 143,
+        "coverage": 0.9975308641975309,
+        "fell_back": true,
+        "reason": "uncovered or impossible >40-clip takes use raw argmax",
+        "filled_by_argmax": 1,
+        "missing_probability_class0": 0,
+        "oversize_takes": 0
+      },
+      "csv_sha256": "c09ace927fc749a24f432d3a4503da9738af3d31db85d26db3f8b15f1fae8489"
+    },
+    {
+      "mode": "partial_clock",
+      "coverage": 0.8567901234567902,
+      "decoder_report": {
+        "mode": "original",
+        "clips": 405,
+        "takes": 133,
+        "coverage": 0.8567901234567902,
+        "fell_back": true,
+        "reason": "uncovered or impossible >40-clip takes use raw argmax",
+        "filled_by_argmax": 58,
+        "missing_probability_class0": 0,
+        "oversize_takes": 0
+      },
+      "csv_sha256": "2696dbf60f78965404da5ef2061e647342742bd7a9d85cc5621dd1c95884604d"
+    },
+    {
+      "mode": "below50_clock",
+      "coverage": 0.3333333333333333,
+      "decoder_report": {
+        "mode": "original",
+        "clips": 405,
+        "takes": 92,
+        "coverage": 0.3333333333333333,
+        "fell_back": true,
+        "reason": "take coverage below .5; use raw argmax where probabilities exist",
+        "filled_by_argmax": 405,
+        "missing_probability_class0": 0,
+        "oversize_takes": 0
+      },
+      "csv_sha256": "0cd2a83dddf4c62c48746b2d36d5bd9d1b1488dd012cb7457f9d041b5ca143e3"
+    },
+    {
+      "mode": "all_clock_hidden",
+      "coverage": 0.0,
+      "decoder_report": {
+        "mode": "original",
+        "clips": 405,
+        "takes": 0,
+        "coverage": 0.0,
+        "fell_back": true,
+        "reason": "take coverage below .5; use raw argmax where probabilities exist",
+        "filled_by_argmax": 405,
+        "missing_probability_class0": 0,
+        "oversize_takes": 0
+      },
+      "csv_sha256": "0cd2a83dddf4c62c48746b2d36d5bd9d1b1488dd012cb7457f9d041b5ca143e3"
+    }
+  ],
+  "inherited_modality_evidence": {
+    "path": "<project>/models/el22-20260915/P1/delivery/fallbacks/receipt.json",
+    "sha256": "d21df322d9527770351e83ef276d649c0a883d7897bc063f3b7d19433b2c1d11",
+    "applies_because": "probabilities identical to the frozen base delivery; only the decoder changed"
+  },
+  "source_sha256": {
+    "<project>/scripts/el25r_d_delivery.py": "e2e31dd8d4c6fdb2ef83f6928572332e15397e59df4a9d5f907c630556bfc19d"
+  }
+}

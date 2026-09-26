@@ -1,0 +1,21 @@
+# Python 3.12.14. A CUDA GPU is required; there is no CPU path.
+# Install PyTorch first from the CUDA 12.8 index, then this file:
+#   pip install --index-url https://download.pytorch.org/whl/cu128 torch==2.11.0 torchvision==0.26.0
+#   pip install -r requirements.txt
+
+torch==2.11.0
+torchvision==0.26.0
+pytorchvideo==0.1.5
+timm==0.6.13
+numpy==2.5.2
+pandas==3.0.5
+pyarrow==25.0.1
+scipy>=1.16,<2
+PyYAML==6.0.3
+pillow==12.3.0
+
+# Not needed for inference. matplotlib is imported only inside build_lut() in
+# src/cuhkx/depth.py (the palette ships inside the checkpoint), and psutil only by the
+# training bookkeeping. Install these two if you intend to retrain:
+#   matplotlib>=3.11
+#   psutil>=7

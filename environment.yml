@@ -1,0 +1,18 @@
+name: cuhkx-small-model
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.14
+  - pip
+  - pip:
+      - --extra-index-url=https://download.pytorch.org/whl/cu128
+      - torch==2.11.0+cu128
+      - torchvision==0.26.0+cu128
+      - pytorchvideo==0.1.5
+      - timm==0.6.13
+      - numpy==2.5.2
+      - pandas==3.0.5
+      - pyarrow==25.0.1
+      - scipy>=1.16,<2
+      - PyYAML==6.0.3
+      - pillow==12.3.0

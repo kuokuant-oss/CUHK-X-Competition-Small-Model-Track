@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-15T20:31:16.616383+08:00",
+  "passed": true,
+  "phase": "cold1",
+  "candidate": "P1-repeat-v1",
+  "model_sha256": "2a6e220ffea7ba131b522a7151d15e7b57827df24b6d601645ff42acdf412130",
+  "probabilities_match_base_atol": 1e-06,
+  "original_mode_reproduces_base": true,
+  "vector_sha256": "982db37510d0dd2d86a29358dfe3116f65623a5ece537bb91f2d2b8de87f1860",
+  "changed_vs_original": 10,
+  "cold_CSV_exact": true,
+  "complete_sha256": "6164fe32e70b4d2baca5676cb392897e1e0848986cd7b28b5324bccd9c400a72",
+  "csv_sha256": "aef1ed637146b2c8ef6235b092c88b5869dcbd5e09b88f909e6198bd3cff6191",
+  "wall_seconds": 359.16313230000014
+}

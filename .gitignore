@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Produced by run_inference.sh / inference.sh
+outputs/
+submission.csv
+
+# OS
+.DS_Store
+Thumbs.db

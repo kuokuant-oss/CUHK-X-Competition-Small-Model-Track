@@ -149,5 +149,7 @@ int8 scheme follows
 If you use this work, please cite the CUHK-X dataset paper:
 
 > S. Jiang, M. Yuan, X. Ji, et al. A Large-Scale Multimodal Dataset and Benchmarks for Human
-> Activity Scene Understanding and Reasoning. MobiSys '26, 2026.
+> Activity Scene Understanding and Reasoning. In Proceedings of the 24th Annual International
+> Conference on Mobile Systems, Applications and Services (MobiSys '26), pages 352–370, 2026.
+> [doi:10.1145/3745756.3809209](https://doi.org/10.1145/3745756.3809209) ·
 > [arXiv:2512.07136](https://arxiv.org/abs/2512.07136)
